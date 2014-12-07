@@ -91,10 +91,13 @@ vagrant@data-science-toolbox:~$ sudo ipython notebook --profile=dst
 
 ## Next Steps
 
-We will always recommend 4 or 5 readings or other support materials for every class, either to supplement the current material, prep for the next class, or covering previous material that students still have questions on.
+If you find yourself all setup and itching to see what iPython can do check out the `more.md` file for some pretty nifty examples.
+
+Additionally, we will always recommend 4 or 5 readings or other support materials for every class, either to supplement the current material, prep for the next class, or covering previous material that students still have questions on.
 
 **Reading and other Materials**
 
+* <a href="http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850375/raw/c18cfcd9580d382cb6d14e4708aab33a0916ff3e/1.+Introduction+to+Pandas.ipynb">Pandas Tutorial</a>
 * <a href="http://www.quora.com/Data-Science/What-is-it-like-to-be-a-data-scientist">Quora: What is it like to be a data scientist?</a>
 * <a href="http://www.youtube.com/watch?v=h9vQIPfe2uU"> Josh Wills: The Life of a Data Scientist</a>
 * <a href="http://www.p-value.info/"> P-Value.info, Carl Anderson's blog (Director of Data at Warby Parker)</a>
