@@ -4,12 +4,12 @@
 |:----------|:--------|:------|:------|:------
 | 12/10/2014 | GA East (902 Broadway, 4th Floor) |Intro to Intro to Data Science | Finish computer setup (lab01)
 | **12/15/2014** || Intro to Machine Learning | Chicago housing price predictor (*dataexplor01*)
-| 12/17/2014  | | Linear Regression | lab02 iPython notebooks
+| 12/17/2014  | | Data Visualization and EDA | lab02 iPython notebooks
 | **12/22/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/25/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/29/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/31/2015**| | **Winter Break (Holiday/ No class)** | |
-| 1/5/2015 | | Data Visualization and EDA | 
+| 1/5/2015 | | Linear Regression | 
 | **1/7/2015**  | | Model Selection | *dataexplor02*
 | 1/12/2015 | | Regularization, Dimensionality Reduction | *dataexplor03* 
 | **1/14/2015** | | Classification, Logistic Regression | *dataexplor04*

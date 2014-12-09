@@ -1,92 +1,80 @@
 # Computer Setup and Data Handling
 
-For this course, we will be using the [**Data Science Toolbox**](http://datasciencetoolbox.org/), which is a virtual environment based on Ubuntu Linux that is specifically configured for doing data science.
+There are a number of tools that are very useful to have installed on your machine.
 
-### Step 1: Download and install VirtualBox
+The minimum set of tools to start exploring data science with Python are
 
-- Go to the [Virtualbox download page](https://www.virtualbox.org/wiki/Downloads) and download the appropriate binary. Open the binary and follow the installations instructions.
+* Python Environment
+* Text Editor
+* Version Control
 
-### Step 2: Download and install Vagrant
+If you have a preference for a particular software that meets one of these requirements, then by all means, stick to what you are familiar with. But if you don't have a prefence I'd suggest you start off with following the install instructions for:
 
-- Go the [Vagrant download page](http://www.vagrantup.com/downloads.html) and download the appropriate binary. Open the binary and follow the installations instructions.
+* Python Environment : [**Anaconda**](http://docs.continuum.io/anaconda/install.html),  is a collection of the most popular modules used for scientific computing. It's the one-stop shop to get all the python modules for doing data science
+* Text Editor : [**SublimeText3**](http://www.sublimetext.com/3), is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
+* Version Control : [**Git**](http://nbviewer.ipython.org/github/ga-students/DS_HK_2/blob/gh-pages/notebooks/Guides%20-%20Git%20&%20GitHub.ipynb), saves 'snapshots' of your work and lets you share it with others.
 
-### Step 3a: Download and initialize the Data Science Toolbox Vagrant environment
+Once you've installed the minimum requirements, consider beefing up your system with additional instructions for
 
-- Open a terminal (also known as the command prompt in Microsoft Windows). Create a directory, for example "gadatasciencetoolbox", and navigate to it:
+* [Mac OSX](#Mac-OSX)
+* [Linux](#Linux)
+* [Windows](#Windows)
 
+# Mac OSX
+
+Once you have the [minimal setup](#Developer-Setup-Instructions), you might also consider improving your developer experience with the follow. In order of importance:
+
+* Update to the [latest version of OSX](http://www.apple.com/hk/en/osx/)
+* [Install XCode](https://developer.apple.com/xcode/) for its command-line tools, and open it at least once - then never again.
+* Install a package manager for OSX. [Homebrew](http://brew.sh/) is installed by pasting the following into a terminal (search for the `terminal` app in spotlight) and follow the instructions
+
+    > ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+        
+* If you've installed Homebrew, you now have the `brew` command which allows you to install a better 'shell' called `ZSH`, this gives you better auto-completion options so you'll have to type less in the terminal. Paste the follow into the terminal.
+    
+    > brew install zsh
+
+* Once you've installed ZSH, be sure to also get this community curated collection of extensions for ZSH, called `oh-my-zsh`. Paste into the terminal.
+
+   > curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh
+
+* Install [iTerm2](http://www.iterm2.com/#/section/home) as a superior Terminal Emulator.
+
+# Linux
+
+Once you have the [minimal setup](#Developer-Setup-Instructions), you should be ready to go.
+
+* If you'd like to have a more customisable shell, consider installing zsh with your package manager of choice, e.g.
+
+> sudo apt-get install zsh
+    
+    or
+
+> sudo yum install zsh
+
+* Once you've installed ZSH, be sure to also get this community curated collection of extensions for ZSH, called `oh-my-zsh`. Paste into the terminal.
+
+   > curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh
+
+* If you are looking to replace your default Terminal Emulator, give [Terminator](http://gnometerminator.blogspot.hk/p/introduction.html) a try.
+
+# Windows
+
+Make sure you have followed the [minimal setup](#Developer-Setup-Instructions), and now have a programme called 'Git Bash'. 
+
+Whenever we refer to 'the terminal' or you see `command line` instructions, you are expected to open `Git Bash` and paste/run them there.
+
+If you have more tips on doing data science under windows, feel free to [contact me](http://type.hk) and I'll add your suggestions here.
+
+# iPython Notebook
+
+iPython Notebooks are fantastic ways to distribute 'literate code'. That is, code which is annotated with a more extensive explanation of what it does. In the notebook's case, the explanation might also include graphics, plots and videos. 
+
+To run the notebooks locally, run 
+
+```bash
+$ ipython notebook --pylab=inline
 ```
-$ mkdir gadatasciencetoolbox
-$ cd gadatasciencetoolbox
-```
-
-- Next, run the following command:
-```
-$ vagrant init data-science-toolbox/dst
-```
-
-### Step 3b: Update the Vagrant config file to forward port 8888
-
-- Step 3a created in your gadatasciencetoolbox folder a file named `Vagrantfile`, which is a config file used by Vagrant. Open the file in your favorite text editor (e.g. vim, notepad) and add the following text somewhere around line 22:
-
-```
-config.vm.network "forwarded_port", guest: 8888, host: 8888
-```
-
-This line instructs Vagrant to open up port 8888 so that the IPython Notebook server is accessible from your browser.
-
-### Step 3c: Start the Data Science Toolbox!
-
-```
-$ vagrant up
-```
-
-### Step 4 (Mac OS X and Linux): Connect to the Data Science Toolbox via ssh: 
-
-- If you are running Mac OS X or some other UNIX-like operating system, you can log in to the Data Science Toolbox by simply running the following command in a terminal:
-
-```
-$ vagrant ssh
-```
-
-### Step 4 (Windows): Connect to the Data Science Toolbox via ssh: 
-
-- If you are running Microsoft Windows, you need to use a third-party application in order to log in to the Data Science Toolbox. We recommend **Putty** for this. Go to its [download page](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) and download `putty.exe`. Run `putty.exe` and enter the following values:
-
-```
-Host Name (or IP address): 127.0.0.1 
-Port: 2222
-Connection type: SSH
-```
-(If you want, you can save these values as a session by clicking the "Save" button, so that you do not need to enter these values again.)
-
-Next, click the "Open" button and enter "vagrant" for both the username and the password.
-
-### Step 5: Install GA Data Science Bundle
-
-- Now that you are logged into your new virtual machine, run the following commands:
-
-(Note that `vagrant@data-science-toolbox:~` indicates that this command should be run on the Data Science Toolbox.)
-
-```
-vagrant@data-science-toolbox:~$ dst update
-vagrant@data-science-toolbox:~$ dst add gads
-```
-
-Invoke the following command to create a password-protected profile:
-
-```
-vagrant@data-science-toolbox:~$ dst setup base
-```
-
-### Step 6: Set up IPython Notebook
-
-To start the IPython Notebook server, run:
-
-```
-vagrant@data-science-toolbox:~$ sudo ipython notebook --profile=dst
-```
-
-- You can now access the IPython Notebook server at https://localhost:8888. Because the SSL certificate is self-signed, you may get a warning message from your browser. The image below shows how Chrome complains about this. Because you know what's on the server-side, you can just click on the "Proceed anyway" button.
 
 
 ## Next Steps
