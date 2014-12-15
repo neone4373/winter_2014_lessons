@@ -5,9 +5,9 @@
 
 ## Upcoming Activity:
 
-* 12/10/2014 - First class Intro to Data Science
-* 12/15/2014 - Intro to Machine Learning
-* 12/17/2014 - Linear Algebra
+* 12/15/2014 - Python 101
+* 12/17/2014 - Intro to Machine Learning
+* 12/22/2014 - Break
 
 ## Office Hours
 
@@ -21,7 +21,7 @@ Katie: M,W - 9:30-10:30PM  ktbarnwell@gmail.com
 | Date      | Location | Topic | Assignment Due 
 |:----------|:--------|:------|:------|:------
 | 12/10/2014 | GA West 10 E. 21st St, 4th Floor, 4C |Intro to Intro to Data Science | Finish computer setup (lab01)
-| **12/15/2014** | | Numpy, Linear Algebra | lab02 iPython notebooks
+| **12/15/2014** | | Python 101 | iPython Worksheet
 | 12/17/2014  | | Intro to Machine Learning | 
 | **12/22/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/25/2015**| | **Winter Break (Holiday/ No class)** | |
