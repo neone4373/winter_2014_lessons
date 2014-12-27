@@ -1,3 +1,4 @@
+
 ## Tentative Syllabus
 
 | Date      | Location | Topic | Assignment Due 

@@ -5,9 +5,9 @@
 
 ## Upcoming Activity:
 
-* 12/15/2014 - Python 101
-* 12/17/2014 - Intro to Machine Learning
-* 12/22/2014 - Break
+* 01/01/2015 - Happy New Year!
+* 01/05/2015 - KNN
+* 01/07/2015 - Linear Regression
 
 ## Office Hours
 
@@ -27,7 +27,8 @@ Katie: M,W - 9:30-10:30PM  ktbarnwell@gmail.com
 | **12/25/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/29/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/31/2015**| | **Winter Break (Holiday/ No class)** | |
-
+| 1/5/2015 | | Linear Regression  | KNN Exercises 
+| **1/7/2015** | |  Polynomial Regression  | Dig into New York Times Data
 
 
 
