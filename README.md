@@ -27,9 +27,11 @@ Katie: M,W - 9:30-10:30PM  ktbarnwell@gmail.com
 | **12/25/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/29/2015**| | **Winter Break (Holiday/ No class)** | |
 | **12/31/2015**| | **Winter Break (Holiday/ No class)** | |
-| 1/5/2015 | | Linear Regression  | KNN Exercises 
-| **1/7/2015** | |  Polynomial Regression  | Dig into New York Times Data
-
+| 1/5/2015 | | Querying Data  |
+| **1/7/2015** | | Linear Regression  | Dig into New York Times Data
+| 1/12/2015 | |  Polynomial Regression  | 
+| **1/14/2015** | | Logistic Regression  | Predicting Baseball Salaries
+| 1/19/2015 | | Knn Classifiers | KNN Exercises 
 
 
 ### Assignments
