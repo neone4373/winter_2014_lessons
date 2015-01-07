@@ -5,15 +5,15 @@
 
 ## Upcoming Activity:
 
-* 01/01/2015 - Happy New Year!
-* 01/05/2015 - KNN
+* 01/05/2015 - Querying Data
 * 01/07/2015 - Linear Regression
+* 01/12/2015 - Polynomial Regression
 
 ## Office Hours
 
 Neo will be available by appointment, neo@fixitwithcode.com
 
-Katie: M,W - 9:30-10:30PM  ktbarnwell@gmail.com
+Katie: Sunday 8:15-9:15pm email beforehand ktbarnwell@gmail.com
 
 ### Syllabus
 
