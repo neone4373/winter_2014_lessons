@@ -5,9 +5,9 @@
 
 ## Upcoming Activity:
 
-* 01/05/2015 - Querying Data
 * 01/07/2015 - Linear Regression
 * 01/12/2015 - Polynomial Regression
+* 01/14/2015 - Logistic Regression 
 
 ## Office Hours
 
@@ -32,6 +32,10 @@ Katie: Sunday 8:15-9:15pm email beforehand ktbarnwell@gmail.com
 | 1/12/2015 | |  Polynomial Regression  | 
 | **1/14/2015** | | Logistic Regression  | Predicting Baseball Salaries
 | 1/19/2015 | | Knn Classifiers | KNN Exercises 
+| **1/21/2015** | | Naive Bayes | Lightning Talks!!
+| 1/26/2015 | | Lightning Talks | 
+| **1/28/2015** | | Guest Speaker?? & Internet Data | 
+| 2/02/2015 | | Decision Trees |  
 
 
 ### Assignments
